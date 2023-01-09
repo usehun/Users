@@ -1,0 +1,8 @@
+extends templates/layout
+
+block content
+  h2 #{loggedInUser.name}'s Profile
+  ul
+    li Name : #{loggedInUser.name}
+    li Username : #{loggedInUser.username}
+  hr
